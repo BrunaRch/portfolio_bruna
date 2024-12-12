@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+header {
+    background-color: #000000;
+    /* height: 60px; */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h2 {
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none;
+}
+
+body {
+    background-color: rgb(238, 124, 83);
+}
+
+#home {
+    background-color: blue;
+    /* padding: 270px; */
+}
+
+#sobre {
+    background-color: blueviolet;
+}
+
+#projetos {
+    background-color: chartreuse;
+}
+
+#habilidades {
+    background-color: crimson;
+}
+
+.certificados {
+    background-color: rgb(189, 179, 36);
+}
